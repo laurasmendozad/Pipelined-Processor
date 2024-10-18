@@ -10,10 +10,12 @@ initial
     PCF=5'd0;
     end
     
-always@(posedge clk)   
-    if (StalF==0) begin          //No se si StalF debe estar en 1 o en 0
+always@(posedge clk) 
+begin
+    if(!StalF) begin            //No se si StalF debe estar en 1 o en 0
         PCF <= PCNextF;
     end
+end
     
 
 
