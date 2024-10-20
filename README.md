@@ -33,6 +33,11 @@ sudo add-­apt­-repository ppa:team­electronics/ppa
 sudo apt­-get update
 sudo apt­-get install iverilog
 ```
+### Install GTKWave
+```
+sudo apt­-get update
+sudo apt­-get install gtkwave
+```
 
 ## Modules <a id = "modules"></a>
 
