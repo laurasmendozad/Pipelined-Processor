@@ -6,13 +6,27 @@
 ## Table of Contents
 
 - <a href ="#about">Overview</a>
-- <a href ="#started">Get Started</a>
 - <a href ="#modules">Modules</a>
 - <a href ="#contributors">Contributors</a>
 
 ## Overview <a id = "about"></a>
-## Get Started <a id = "started"></a>
+<ul>
+   <li>
+      It is required to design, implement and test a pipeline processor, RISC-V based.
+   </li>
+   <li>Built using:
+   <ol>
+      <li>Verilog</li>
+      <li>Vivado</li>
+      <li>GTKWave</li>
+      <li>Python</li>
+      </ol>
+   </li>
+</ul>
+
 ## Modules <a id = "modules"></a>
+
+
 ## Contributors <a id ="contributors"></a>
 <table align="center" >
   <tr>
