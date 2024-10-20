@@ -6,6 +6,7 @@
 ## Table of Contents
 
 - <a href ="#about">Overview</a>
+- <a href ="#design">Design</a>
 - <a href ="#modules">Modules</a>
 - <a href ="#contributors">Contributors</a>
 
@@ -23,6 +24,9 @@
       </ol>
    </li>
 </ul>
+
+## Design <a id = "design"></a>
+<img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Schematic_Pipeline_Processor.png">
 
 ## Modules <a id = "modules"></a>
 
