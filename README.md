@@ -60,7 +60,11 @@ An Arithmetic/Logical Unit (ALU) combines a variety of mathematical and logical 
 |     110     |   Branch Equal   |     beq     |
 
 The simulation gave us this results
-<img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Schematic_Pipeline_Processor.png">
+<img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Testbench/ALU_tb.png">
+
+### Decoder
+
+
 
 ## Design <a id = "design"></a>
 <img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Schematic_Pipeline_Processor.png">
