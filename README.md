@@ -39,6 +39,13 @@ sudo apt­-get update
 sudo apt­-get install gtkwave
 ```
 
+### Run tests
+```
+iverilog -o Module_TB ../generated/*.v ./Module_tb.v
+vvp testbench
+gtkwave out.vcd &
+```
+
 ## Modules <a id = "modules"></a>
 
 
