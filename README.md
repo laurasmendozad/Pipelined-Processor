@@ -6,8 +6,9 @@
 ## Table of Contents
 
 - <a href ="#about">Overview</a>
-- <a href ="#design">Design</a>
+- <a href ="#getstarted">Get Started</a>
 - <a href ="#modules">Modules</a>
+- <a href ="#design">Design</a>
 - <a href ="#contributors">Contributors</a>
 
 ## Overview <a id = "about"></a>
@@ -25,10 +26,20 @@
    </li>
 </ul>
 
-## Design <a id = "design"></a>
-<img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Schematic_Pipeline_Processor.png">
+## Get Started <a id = "getstarted"></a>
+### Install Icarus Verilog
+```
+sudo add-­apt­-repository ppa:team­electronics/ppa
+sudo apt­-get update
+sudo apt­-get install iverilog
+```
 
 ## Modules <a id = "modules"></a>
+
+
+
+## Design <a id = "design"></a>
+<img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Schematic_Pipeline_Processor.png">
 
 
 ## Contributors <a id ="contributors"></a>
