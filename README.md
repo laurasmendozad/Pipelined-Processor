@@ -75,6 +75,9 @@ Its main function is to translate the instructions encoded in machine language i
 |    U-type   | 0110111 |     1     |   100   |    1    |     0     |     11     |    0    |   00  |   0   |
 |     jal     | 1101111 |     1     |   011   |    1    |     0     |     10     |    0    |   00  |   1   |
 
+#### ALU Decoder
+
+
 ## Design <a id = "design"></a>
 <img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Schematic_Pipeline_Processor.png">
 
