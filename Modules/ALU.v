@@ -14,7 +14,6 @@ module ALU(input  [31:0]SrcAE,
 		4: ALUResultE = SrcAE > SrcBE;
 		5: ALUResultE = SrcAE < SrcBE;
 		6: ALUResultE = SrcAE ^ SrcBE;
-		7: ALUResultE = SrcAE == SrcBE;
 		default: ALUResultE = 32'd0;
 	    endcase
 

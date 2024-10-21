@@ -115,9 +115,9 @@ begin
         7'b1000010: ALUControlD = 3'b000;
         7'b1000011: ALUControlD = 3'b001;
         7'b10010xx: ALUControlD = 3'b101;
+        7'b10100xx: ALUControlD = 3'b110;
         7'b10110xx: ALUControlD = 3'b011;
         7'b10111xx: ALUControlD = 3'b010;
-        7'b10100xx: ALUControlD = 3'b110;
         default:    ALUControlD = 3'b000;
     endcase
 end
