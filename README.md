@@ -54,8 +54,8 @@ An Arithmetic/Logical Unit (ALU) combines a variety of mathematical and logical 
 |     001     |     Subtract     |     sub     |
 |     010     |        AND       |     and     |
 |     011     |        OR        |      or     |
-|     100     |   Set Less Than  |     slt     |
-|     101     | Set Greater Than |     sgt     |
+|     100     |   Set Greater Than  |     slt     |
+|     101     | Set Less Than |     sgt     |
 |     110     |   Branch Equal   |     beq     |
 
 The simulation gave us this results
