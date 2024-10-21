@@ -63,7 +63,7 @@ The simulation gave us this results
 <img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Testbench/ALU_tb.png">
 
 ### Decoder
-
+SIts main function is to translate the instructions encoded in machine language into electrical signals that the ALU can understand and execute.
 
 
 ## Design <a id = "design"></a>
