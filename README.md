@@ -21,7 +21,6 @@
       <li>Verilog</li>
       <li>Vivado</li>
       <li>GTKWave</li>
-      <li>Python</li>
       </ol>
    </li>
 </ul>
