@@ -75,7 +75,19 @@ Its main function is to translate the instructions encoded in machine language i
 |     jal     | 1101111 |     1     |   011   |    1    |     0     |     10     |    0    |   00  |   1   |
 
 #### ALU Decoder
+| ALUOp | func3 | {op[5],func7_5} | ALUControl | Instruction |
+|:-----:|:-----:|:---------------:|:----------:|:-----------:|
+|   00  |   x   |        x        |     000    |    lw,sw    |
+|   01  |   x   |        x        |     001    |      be     |
+|   10  |  000  |     00,01,10    |     000    |     add     |
+|   10  |  000  |        11       |     001    |     sub     |
+|   10  |  010  |        x        |     101    |     slt     |
+|   10  |  100  |        x        |     110    |     jal     |
+|   10  |  110  |        x        |     011    |      or     |
+|   10  |  111  |        x        |     010    |     and     |
 
+The simulation gave us this results
+<img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Testbench/Decoder_tb.png">
 
 ## Design <a id = "design"></a>
 <img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Schematic_Pipeline_Processor.png">
