@@ -62,8 +62,18 @@ The simulation gave us this results
 <img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Testbench/ALU_tb.png">
 
 ### Decoder
-SIts main function is to translate the instructions encoded in machine language into electrical signals that the ALU can understand and execute.
+Its main function is to translate the instructions encoded in machine language into electrical signals that the ALU can understand and execute. We partition it into two major parts: the Main Decoder, which produces most of the control signals, and the ALU Decoder, which determines what operation the ALU performs. Each partition has it's own truth table presented below.
 
+#### Main Decoder
+| Instruction |    op   | RegWriteD | ImmSrcD | ALUSrcD | MemWriteD | ResultSrcD | BranchD | ALUOp | JumpD |
+|:-----------:|:-------:|:---------:|---------|---------|-----------|------------|---------|-------|-------|
+|      lw     | 0000011 |     1     |   000   |    1    |     0     |     01     |    0    |   00  |   0   |
+|      sw     | 0100011 |     0     |   001   |    1    |     1     |     11     |    0    |   00  |   0   |
+|    R-type   | 0110011 |     1     |   000   |    0    |     0     |     00     |    0    |   10  |   0   |
+|     beq     | 1100011 |     0     |   010   |    0    |     0     |     00     |    1    |   01  |   0   |
+|    I_type   | 0010011 |     1     |   000   |    1    |     0     |     00     |    0    |   10  |   0   |
+|    U-type   | 0110111 |     1     |   100   |    1    |     0     |     11     |    0    |   00  |   0   |
+|     jal     | 1101111 |     1     |   011   |    1    |     0     |     10     |    0    |   00  |   1   |
 
 ## Design <a id = "design"></a>
 <img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Schematic_Pipeline_Processor.png">
