@@ -89,6 +89,11 @@ Its main function is to translate the instructions encoded in machine language i
 The simulation gave us this results
 <img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Testbench/Decoder_tb.png">
 
+### Extend
+
+
+
+
 ## Design <a id = "design"></a>
 <img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Schematic_Pipeline_Processor.png">
 
