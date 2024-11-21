@@ -90,7 +90,7 @@ The simulation gave us this results
 <img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Testbench/Decoder_tb.png">
 
 ### Extend
-receives the 12-bit signed immediate in Instr31:20 and produces the 32-bit sign-extended immediate, ImmExt. The processor adds the base address to the offset to find the
+This module receives the 12-bit signed immediate in Instr31:20 and produces the 32-bit sign-extended immediate, ImmExt. The processor adds the base address to the offset to find the
 address to read from memory.
 
 The simulation gave us this results
