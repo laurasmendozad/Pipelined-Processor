@@ -96,6 +96,9 @@ address to read from memory.
 The simulation gave us this results
 <img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Testbench/Extend_tb.png">
 
+### RAM
+
+### ROM
 
 ## Design <a id = "design"></a>
 <img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Schematic_Pipeline_Processor.png">
