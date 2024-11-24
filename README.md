@@ -104,10 +104,15 @@ The simulation gave us this results
 
 
 ### ROM
+Read only memory is nonvolatile, meaning that it retains its data indefinitely, even without a power source.
+
+
 
 ## Design <a id = "design"></a>
 <img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Schematic_Pipeline_Processor.png">
 
+The simulation gave us this results
+<img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Testbench/ROM_tb.png">
 
 ## Contributors <a id ="contributors"></a>
 <table align="center" >
