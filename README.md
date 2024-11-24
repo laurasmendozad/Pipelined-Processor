@@ -97,6 +97,11 @@ The simulation gave us this results
 <img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Testbench/Extend_tb.png">
 
 ### RAM
+Random access memory is volatile, meaning that is loses its data when the power is turned off.
+
+The simulation gave us this results
+<img src="https://github.com/laurasmendozad/Pipelined-Processor/blob/main/Images/Testbench/RAM_tb.png">
+
 
 ### ROM
 
