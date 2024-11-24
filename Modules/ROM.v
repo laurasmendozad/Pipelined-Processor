@@ -19,6 +19,6 @@ always @ (*)
 //The following code initializes the ROM contents via an external file
 //with data in hexadecimal readmemh or use $readmemb for data in binary
 initial
-    $readmemh("codigo.mem", memoria, 0, (2**BITS_ADDR)-1);
+    $readmemh("../Modules/codigo.mem", memoria, 0, 23);
 	
 endmodule
