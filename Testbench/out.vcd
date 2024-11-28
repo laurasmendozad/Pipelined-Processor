@@ -1,5 +1,5 @@
 $date
-	Sun Nov 24 17:02:14 2024
+	Wed Nov 27 20:20:30 2024
 $end
 $version
 	Icarus Verilog
@@ -7,40 +7,133 @@ $end
 $timescale
 	1ps
 $end
-$scope module ROM_tb $end
-$var wire 32 ! InstrF [31:0] $end
-$var reg 5 " PCF [4:0] $end
-$scope module rom_inst $end
-$var wire 5 # PCF [4:0] $end
-$var reg 32 $ InstrF [31:0] $end
+$scope module Hazard_tb $end
+$var wire 1 ! StalF $end
+$var wire 1 " StalD $end
+$var wire 2 # ForwardBE [1:0] $end
+$var wire 2 $ ForwardAE [1:0] $end
+$var wire 1 % FlushE $end
+$var wire 1 & FlushD $end
+$var reg 1 ' PCSrcE $end
+$var reg 5 ( RdE [4:0] $end
+$var reg 5 ) RdM [4:0] $end
+$var reg 5 * RdW [4:0] $end
+$var reg 1 + RegWriteM $end
+$var reg 1 , RegWriteW $end
+$var reg 1 - ResultSrcE0 $end
+$var reg 5 . Rs1D [4:0] $end
+$var reg 5 / Rs1E [4:0] $end
+$var reg 5 0 Rs2D [4:0] $end
+$var reg 5 1 Rs2E [4:0] $end
+$scope module uut $end
+$var wire 1 ' PCSrcE $end
+$var wire 5 2 RdE [4:0] $end
+$var wire 5 3 RdM [4:0] $end
+$var wire 5 4 RdW [4:0] $end
+$var wire 1 + RegWriteM $end
+$var wire 1 , RegWriteW $end
+$var wire 1 - ResultSrcE0 $end
+$var wire 5 5 Rs1D [4:0] $end
+$var wire 5 6 Rs1E [4:0] $end
+$var wire 5 7 Rs2D [4:0] $end
+$var wire 5 8 Rs2E [4:0] $end
+$var reg 1 & FlushD $end
+$var reg 1 % FlushE $end
+$var reg 2 9 ForwardAE [1:0] $end
+$var reg 2 : ForwardBE [1:0] $end
+$var reg 1 " StalD $end
+$var reg 1 ! StalF $end
+$var reg 1 ; lwStall $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-b10100000000000100010011 $
+0;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+0-
+0,
+0+
+b0 *
+b0 )
+b0 (
+0'
+0&
+0%
+b0 $
 b0 #
-b0 "
-b10100000000000100010011 !
+0"
+0!
 $end
 #10000
-b110000000000000110010011 !
-b110000000000000110010011 $
-b1 "
-b1 #
+b10 $
+b10 9
+1+
+b1 )
+b1 3
+b10 1
+b10 8
+b1 /
+b1 6
 #20000
-b11111111011100011000001110010011 !
-b11111111011100011000001110010011 $
-b10 "
-b10 #
+b1 $
+b1 9
+1,
+b11 *
+b11 4
+b11 /
+b11 6
 #30000
-b1000111110001000110011 !
-b1000111110001000110011 $
-b11 "
-b11 #
+1%
+1"
+1!
+1;
+b1 $
+b1 9
+1-
+b100 (
+b100 2
+b100 .
+b100 5
 #40000
-bx !
-bx $
-b11111 "
-b11111 #
-#1000000
+1&
+1;
+1%
+1"
+1!
+b1 $
+b1 9
+1'
+#50000
+0&
+0;
+0%
+0"
+0!
+b0 $
+b0 9
+0'
+0-
+0,
+0+
+b0 *
+b0 4
+b0 )
+b0 3
+b10110 1
+b10110 8
+b10101 /
+b10101 6
+#60000
